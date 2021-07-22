@@ -13,4 +13,12 @@ a{
 }
 body{
     background-color: #B9D6F2;
+    color: #0353A4;
+    padding: 0% 20%;
+    text-align: center;
+}
+
+ul, ol{
+    padding-left: 40%;
+    text-align: left;
 }
