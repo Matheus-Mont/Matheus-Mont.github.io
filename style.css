@@ -27,3 +27,11 @@ ul, ol{
     color: #061a40;
     font-weight: bold;
 }
+.destaque{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.comum{
+    font-size: 18px;
+}
