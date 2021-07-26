@@ -1,26 +1,29 @@
+
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 a{
     text-decoration: none;
+    color: #0353A4;
 }
+
+a:hover{
+    background-color: #003559;
+    color: white; ]
+}
+
 #origem{
     font-family: monospace;
+    position: absolute;
+    left: 220px;
     text-align: justify;
 }
-#foto{
-    border-radius: 80px;
-}
+
 body{
     background-color: #B9D6F2;
     color: #0353A4;
-    padding: 0% 20%;
-    text-align: center;
-}
+    padding: 3% 20%;
 
-ul, ol{
-    padding-left: 40%;
-    text-align: left;
 }
 
 .enf{
@@ -34,4 +37,28 @@ ul, ol{
 
 .comum{
     font-size: 18px;
+}
+
+#foto{
+    width: 180px;
+    float: left;
+    margin-right: 30px;
+    padding: 10px;
+    background-color: #0353A4; ;
+}
+#nome{
+    text-align: center;
+}
+
+.img-container{
+    height: 235px;
+    position: relative;;
+}
+
+#conteudo{
+    left: 30px;
+}
+
+ul li:nth-child(odd){
+    background-color: cornflowerblue;
 }
